@@ -31,3 +31,12 @@ The code is available at [https://github.com/mahui-HUE/SPD](https://github.com/m
 #### GPU Memory Usage and Utilization
 
 ![GPU memory usage and utilization while running two joint-training tasks concurrently](assets/runtime/two-joint-training-tasks-gpu.png)
+
+## Acknowledgements
+
+This repository is based on
+[DreamDiffusion](https://github.com/bbaaii/DreamDiffusion),
+originally developed by bbaaii and released under the MIT License.
+
+This fork includes modifications to EEG channel masking, spatial priors,
+brain-region encoding, model architecture, dataset support, and evaluation.
